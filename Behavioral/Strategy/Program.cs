@@ -10,10 +10,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var persona = new Persona();
-            var categoria = new CategoriaA();
-            var empleo = new Empleo(persona, 10, categoria, 10000);
+            var categoriaA = new CategoriaA();
+            var categoriaB = new CategoriaB();
+            var empleo = new Empleo(persona, 10, categoriaA, 10000);
+            var empleo2 = new Empleo(persona, 23, categoriaA, 70000);
 
             persona.AddEmpleo(empleo);
+            persona.AddEmpleo(empleo2);
 
             Console.WriteLine(persona.GetNetoTotal());
 

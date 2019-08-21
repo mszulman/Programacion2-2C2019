@@ -18,6 +18,7 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="_categoria" />
+      <Field Name="_persona" />
     </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp1.Categoria">
