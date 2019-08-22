@@ -12,8 +12,8 @@ namespace State
         {
             //var estadoInicial = new EstadoFeliz();
             //var estadoInicial = new EstadoTriste();
-            var estadoInicial = new EstadoHambriento();
-            //var estadoInicial = new EstadoSediento();
+            //var estadoInicial = new EstadoHambriento();
+            var estadoInicial = new EstadoSediento();
 
             var mascotita = new Tamagotchi(estadoInicial);
 
@@ -25,10 +25,10 @@ namespace State
 
             Console.ForegroundColor = ConsoleColor.Green;
 
-            Console.WriteLine("Te doy de comer");
-            mascotita.Alimentar();
-            //Console.WriteLine("Te doy de tomar");
-            //mascotita.DarDeTomar();
+            //Console.WriteLine("Te doy de comer");
+            //mascotita.Alimentar();
+            Console.WriteLine("Te doy de tomar");
+            mascotita.DarDeTomar();
             //Console.WriteLine("Te hago un mimo");
             //mascotita.HacerMimo();
             //Console.WriteLine("Te pego");
