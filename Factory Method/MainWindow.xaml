@@ -1,0 +1,46 @@
+﻿<Window x:Class="Factory_Method.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Factory_Method"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="225" Margin="128,143,0,0" Stroke="Black" VerticalAlignment="Top" Width="219"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="13" Margin="346,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="340"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="68" Margin="417,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="13"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="68" Margin="596,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="13"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="79" Margin="154,67,0,0" Stroke="Black" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-21.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="79" Margin="318,67,0,0" Stroke="Black" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="21.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="139,69,0,0" Stroke="Black" VerticalAlignment="Top" Width="195"/>
+        <Button Content="Crear" HorizontalAlignment="Left" Margin="206,220,0,0" VerticalAlignment="Top" Width="65" Height="68" Click="Button_Click"/>
+        <RadioButton Content="Molde de Autitos" HorizontalAlignment="Left" Margin="417,69,0,0" VerticalAlignment="Top" IsChecked="True" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Molde de Avioncitos" HorizontalAlignment="Left" Margin="558,69,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="139" Margin="372,143,0,0" VerticalAlignment="Top" Width="314">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="280"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
