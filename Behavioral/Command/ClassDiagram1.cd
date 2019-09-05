@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Command.AbstractCommand">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.AumentarTamanio">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AumentarTamanio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.EditorButton">
+    <Position X="16.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditorButton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Command" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Command.EditorRichTextBox">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEAAAAAICAAAEAAAAAAAAAAIAAAIEAAAAAAA=</HashCode>
+      <FileName>EditorRichTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.Italica">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Italica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.Negrita">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negrita.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.ReducirTamanio">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReducirTamanio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.Subrayado">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subrayado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
