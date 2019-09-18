@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:AbstractFactory"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Loaded="Grid_Loaded">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="179" Margin="24,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="212"/>
+        <RadioButton x:Name="rbCiudad" Content="Ciudad" HorizontalAlignment="Left" Margin="34,130,0,0" VerticalAlignment="Top" IsChecked="True" Checked="RbCiudad_Checked"/>
+        <RadioButton x:Name="rbCarrera" Content="Carrera" HorizontalAlignment="Left" Margin="97,130,0,0" VerticalAlignment="Top" Checked="RbCarrera_Checked"/>
+        <RadioButton x:Name="rbMontana" Content="Montaña" HorizontalAlignment="Left" Margin="159,130,0,0" VerticalAlignment="Top" Checked="RbMontana_Checked"/>
+        <Button x:Name="btRueda" Content="Rueda" HorizontalAlignment="Left" Margin="90,200,0,0" VerticalAlignment="Top" Width="75" Click="BtRueda_Click"/>
+        <Button x:Name="btCuadro" Content="Cuadro" HorizontalAlignment="Left" Margin="90,224,0,0" VerticalAlignment="Top" Width="75" Click="BtCuadro_Click"/>
+        <Button x:Name="btManubrio" Content="Manubrio" HorizontalAlignment="Left" Margin="90,248,0,0" VerticalAlignment="Top" Width="75" Click="BtManubrio_Click"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="400" Margin="269,10,0,0" VerticalAlignment="Top" Width="515">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="480"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
     </Grid>
 </Window>
