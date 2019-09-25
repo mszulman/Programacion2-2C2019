@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{CB22DA8A-0035-4ECC-94D1-41C3D5A0D93E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CB22DA8A-0035-4ECC-94D1-41C3D5A0D93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB22DA8A-0035-4ECC-94D1-41C3D5A0D93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB22DA8A-0035-4ECC-94D1-41C3D5A0D93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{70E5AC33-3E36-4B9D-A42E-90AF4B060C1E} = {B88E3441-4628-42DC-9EF9-2276F4C45FF0}
 		{E8EB70D8-DB9A-467F-93D9-217149F914A9} = {2CCF5545-153C-4F3C-A502-FE9BF253D620}
 		{CB22DA8A-0035-4ECC-94D1-41C3D5A0D93E} = {2CCF5545-153C-4F3C-A502-FE9BF253D620}
+		{D7F99937-7CB0-4E05-B07C-9AE1B4F35C01} = {CE7C2AD9-7FAB-457E-9521-307449C4D4D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFBC7AEB-8295-4893-A6AD-7B5FBAC3E3AB}
