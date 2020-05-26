@@ -9,10 +9,12 @@ namespace Composite
     public class ProductoCompuesto : Producto
     {
         private List<Producto> _productos;
+        private AbstractEstrategiaDeCalculo _estrategiaDeCalculo;
 
-        public ProductoCompuesto(string nombre) : base (nombre)
+        public ProductoCompuesto(string nombre, AbstractEstrategiaDeCalculo estrategiaDeCalculo) : base (nombre)
         {
             _productos = new List<Producto>();
+            _estrategiaDeCalculo = estrategiaDeCalculo;
         }
 
         public void AddProducto (Producto producto)
@@ -31,6 +33,8 @@ namespace Composite
             foreach (Producto producto in _productos)
                 precioTotal += producto.GetPrecio();
 
+
+
             //_productos.ForEach(x => precioTotal += x.GetPrecio());
 
             //var precioTotal = _productos.Sum(x => x.GetPrecio());
@@ -40,7 +44,7 @@ namespace Composite
             //    select producto.GetPrecio())
             //    .Sum();
 
-            return precioTotal * (decimal)0.9;
+            return _estrategiaDeCalculo.CalcularPrecio(precioTotal);
         }
     }
 }

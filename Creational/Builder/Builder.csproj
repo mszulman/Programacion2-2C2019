@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAAA897B-2CF3-4744-B677-B3AE0147F3EE}</ProjectGuid>
+    <ProjectGuid>{EBC4A684-519F-4DA8-9872-4E8D97B36EB2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Composite</RootNamespace>
-    <AssemblyName>Composite</AssemblyName>
+    <RootNamespace>Builder</RootNamespace>
+    <AssemblyName>Builder</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractEstrategiaDeCalculo.cs" />
-    <Compile Include="Estrategia10Porciento.cs" />
-    <Compile Include="Estrategia25Porciento.cs" />
-    <Compile Include="EstrategiaTeLoRegalo.cs" />
-    <Compile Include="Factura.cs" />
-    <Compile Include="Producto.cs" />
-    <Compile Include="ProductoCompuesto.cs" />
-    <Compile Include="ProductoSimple.cs" />
+    <Compile Include="Builder.cs" />
+    <Compile Include="BuilderEnHumedo.cs" />
+    <Compile Include="BuilderEnSeco.cs" />
+    <Compile Include="Casa.cs" />
+    <Compile Include="Director.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

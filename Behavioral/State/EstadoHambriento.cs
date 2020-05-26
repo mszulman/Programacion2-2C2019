@@ -22,7 +22,7 @@ namespace State
         {
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Gracias, pero no quiero");
-            return this;
+            return new EstadoTriste();
         }
         public override Estado HacerMimo()
         {

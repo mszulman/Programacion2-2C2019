@@ -17,7 +17,7 @@ namespace Adapter
 
         public override string GetMap(int latitud, int longitud)
         {
-            return _googleMaps.DameMapa(longitud, latitud);
+            return (string)_googleMaps.DameMapa(longitud.ToString(), latitud);
         }
     }
 }

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Builder.Builder" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAACAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.BuilderEnHumedo" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAACAAAAAAAAAAAAAAEAgAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>BuilderEnHumedo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.BuilderEnSeco" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAACAAAAAAAAAAAAAAEAgAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>BuilderEnSeco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Casa" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgEAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Casa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Director" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

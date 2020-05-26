@@ -8,7 +8,7 @@ namespace Adapter
 {
     public class GoogleMaps
     {
-        public string DameMapa(int longitud, int latitud)
+        public object DameMapa(string longitud, int latitud)
         {
             return "Hello, my name is google, nice to meet you";
         }

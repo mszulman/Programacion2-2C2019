@@ -12,7 +12,7 @@ namespace ConsoleApp1
             var persona = new Persona();
             var categoriaA = new CategoriaA();
             var categoriaB = new CategoriaB();
-            var empleo = new Empleo(persona, 10, categoriaA, 10000);
+            var empleo = new Empleo(persona, 10, categoriaB, 10000);
             var empleo2 = new Empleo(persona, 23, categoriaA, 70000);
 
             persona.AddEmpleo(empleo);
