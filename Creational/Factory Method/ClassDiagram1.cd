@@ -39,14 +39,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Factory_Method.MoldeAutito">
-    <Position X="8.75" Y="3.25" Width="1.5" />
+    <Position X="6.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MoldeAutito.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory_Method.MoldeAvioncito">
-    <Position X="6.5" Y="3.25" Width="1.5" />
+    <Position X="8.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MoldeAvioncito.cs</FileName>

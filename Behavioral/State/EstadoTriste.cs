@@ -30,11 +30,11 @@ namespace State
             Console.WriteLine(":)");
             return new EstadoFeliz();
         }
-        public override Estado Pegar()
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("ME DUELE!!!");
-            return new EstadoTriste();
-        }
+        //public override Estado Pegar()
+        //{
+        //    Console.ForegroundColor = ConsoleColor.White;
+        //    Console.WriteLine("ME DUELE!!!");
+        //    return new EstadoTriste();
+        //}
     }
 }

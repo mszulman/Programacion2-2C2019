@@ -9,7 +9,7 @@
   </Class>
   <Class Name="Observer.Cardiologo">
     <Position X="10.5" Y="2.75" Width="1.5" />
-    <AssociationLine Name="TomadorDePulso" Type="Observer.TomadorDePulso" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="TomadorDePulso" Type="Observer.TomadorDePulso" ManuallyRouted="true">
       <Path>
         <Point X="11.25" Y="4.627" />
         <Point X="11.25" Y="5.462" />
@@ -22,8 +22,8 @@
       <FileName>Cardiologo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Termometro" />
       <Property Name="TomadorDePulso" />
+      <Property Name="Termometro" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Observer.Maquina">
@@ -35,13 +35,6 @@
     <ShowAsCollectionAssociation>
       <Field Name="_observers" />
     </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="Observer.Medico">
-    <Position X="12.75" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Medico.cs</FileName>
-    </TypeIdentifier>
   </Class>
   <Class Name="Observer.Nutricionista">
     <Position X="12.75" Y="2.75" Width="1.5" />
@@ -84,6 +77,13 @@
     <ShowAsAssociation>
       <Property Name="Termometro" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="Observer.Medico">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Medico.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -6,6 +6,9 @@
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractCommand.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Texto" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Command.AumentarTamanio">
     <Position X="7.25" Y="3.25" Width="1.5" />
@@ -15,7 +18,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Command.EditorButton">
-    <Position X="16.5" Y="1.25" Width="1.5" />
+    <Position X="12" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EditorButton.cs</FileName>
@@ -25,7 +28,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Command.EditorRichTextBox">
-    <Position X="18.25" Y="1.25" Width="1.5" />
+    <Position X="2.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAEAAAAAICAAAEAAAAAAAAAAIAAAIEAAAAAAA=</HashCode>
       <FileName>EditorRichTextBox.cs</FileName>

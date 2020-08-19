@@ -13,7 +13,7 @@ namespace State
         public abstract Estado Alimentar();
         public abstract Estado DarDeTomar();
         public abstract Estado HacerMimo();
-        public abstract Estado Pegar();
+        //public abstract Estado Pegar();
 
         //public Estado Alimentar()
         //{
@@ -30,10 +30,11 @@ namespace State
         //    Console.WriteLine("NO QUIERO MIMO!!");
         //    return this;
         //}
-        //public Estado Pegar()
-        //{
-        //    Console.WriteLine("ME DUELE!!!");
-        //    return new EstadoTriste();
-        //}
+        public virtual Estado Pegar()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("ME DUELE!!!!");
+            return new EstadoTriste();
+        }
     }
 }

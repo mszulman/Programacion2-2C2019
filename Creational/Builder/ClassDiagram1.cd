@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Builder.Builder" Collapsed="true">
-    <Position X="9" Y="1.5" Width="1.5" />
+  <Class Name="Builder.Builder">
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAEAAAAACAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAIA=</HashCode>
       <FileName>Builder.cs</FileName>
