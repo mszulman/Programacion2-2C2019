@@ -28,13 +28,12 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Composite.ProductoCompuesto">
-    <Position X="6.5" Y="4.25" Width="1.5" />
-    <AssociationLine Name="_estrategiaDeCalculo" Type="Composite.AbstractEstrategiaDeCalculo" FixedFromPoint="true" FixedToPoint="true">
+    <Position X="6.5" Y="4.25" Width="1.75" />
+    <AssociationLine Name="_productos" Type="Composite.Producto" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.5" Y="4.77" />
-        <Point X="6.125" Y="4.77" />
-        <Point X="6.125" Y="3.812" />
-        <Point X="3.5" Y="3.812" />
+        <Point X="7.062" Y="4.25" />
+        <Point X="7.062" Y="2.062" />
+        <Point X="7.75" Y="2.062" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -49,31 +48,38 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Composite.ProductoSimple">
-    <Position X="8.75" Y="4.25" Width="1.5" />
+    <Position X="9" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ProductoSimple.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Composite.AbstractEstrategiaDeCalculo">
-    <Position X="2" Y="3.25" Width="1.5" />
+  <Class Name="Composite.Estrategia10Porciento">
+    <Position X="0.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
-      <FileName>AbstractEstrategiaDeCalculo.cs</FileName>
+      <FileName>Estrategia10Porciento.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Composite.Estrategia25Porciento">
-    <Position X="3" Y="5.5" Width="1.5" />
+    <Position X="2.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Estrategia25Porciento.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Composite.Estrategia10Porciento">
-    <Position X="0.75" Y="5.5" Width="1.5" />
+  <Class Name="Composite.EstrategiaTeLoRegalo">
+    <Position X="4.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
-      <FileName>Estrategia10Porciento.cs</FileName>
+      <FileName>EstrategiaTeLoRegalo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite.AbstractEstrategiaDeCalculo">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>AbstractEstrategiaDeCalculo.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

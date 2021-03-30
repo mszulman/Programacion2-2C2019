@@ -13,12 +13,23 @@ namespace Command
     public partial class Form1 : Form
     {
         private Stack<AbstractCommand> _historial;
+        private List<AbstractCommand> _comandosTitulo;
 
         public Form1()
         {
             InitializeComponent();
 
             _historial = new Stack<AbstractCommand>();
+
+            _comandosTitulo = new List<AbstractCommand>();
+            _comandosTitulo.Add(new Negrita(this.richTextBox1));
+            _comandosTitulo.Add(new Subrayado(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -77,6 +88,11 @@ namespace Command
                 var command = _historial.Pop();
                 command.Undo();
             }
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            _comandosTitulo.ForEach(x => x.Do());
         }
     }
 }

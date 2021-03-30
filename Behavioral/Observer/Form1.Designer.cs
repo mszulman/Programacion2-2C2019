@@ -51,6 +51,7 @@
             this.btTomadorDePulso.Text = "Pulso";
             this.btTomadorDePulso.UseVisualStyleBackColor = true;
             this.btTomadorDePulso.Click += new System.EventHandler(this.BtTomadorDePulso_Click);
+            this.btTomadorDePulso.Click += new System.EventHandler(this.PruebaDeMetodo);
             // 
             // btTemperatura
             // 

@@ -34,10 +34,10 @@ namespace Composite
 
             // Configuración de Factura (Pedido)
             var factura = new Factura();
-            factura.AddItem(mcChombo1, 1);
+            factura.AddItem(mcChombo1, 2);
             factura.AddItem(mcChombo2, 1);
-            factura.AddItem(hamburguesa, 1);
-            factura.AddItem(papas, 2);
+            //factura.AddItem(hamburguesa, 1);
+            //factura.AddItem(papas, 2);
 
             factura.ImprimirFactura();
         }

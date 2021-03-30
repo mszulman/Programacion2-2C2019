@@ -16,7 +16,7 @@ namespace ConsoleApp1
             var empleo2 = new Empleo(persona, 23, categoriaA, 70000);
 
             persona.AddEmpleo(empleo);
-            persona.AddEmpleo(empleo2);
+            //persona.AddEmpleo(empleo2);
 
             Console.WriteLine(persona.GetNetoTotal());
 

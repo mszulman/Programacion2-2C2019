@@ -10,9 +10,9 @@ namespace State
     {
         static void Main(string[] args)
         {
-            var estadoInicial = new EstadoFeliz();
+            //var estadoInicial = new EstadoFeliz();
             //var estadoInicial = new EstadoTriste();
-            //var estadoInicial = new EstadoHambriento();
+            var estadoInicial = new EstadoHambriento();
             //var estadoInicial = new EstadoSediento();
 
             var mascotita = new Tamagotchi(estadoInicial);
@@ -27,12 +27,12 @@ namespace State
 
             //Console.WriteLine("Te doy de comer");
             //mascotita.Alimentar();
-            //Console.WriteLine("Te doy de tomar");
-            //mascotita.DarDeTomar();
+            Console.WriteLine("Te doy de tomar");
+            mascotita.DarDeTomar();
             //Console.WriteLine("Te hago un mimo");
             //mascotita.HacerMimo();
-            Console.WriteLine("Te pego");
-            mascotita.Pegar();
+            //Console.WriteLine("Te pego");
+            //mascotita.Pegar();
 
             Console.ReadLine();
 

@@ -8,6 +8,15 @@ namespace State
 {
     public class Tamagotchi
     {
+        //private Estado estado;
+        //public Estado getEstado()
+        //{
+        //    return estado;
+        //}
+        //private void setEstado(Estado estado)
+        //{
+        //    this.estado = estado;
+        //}
         public Estado Estado { get; private set; }
 
         public Tamagotchi(Estado estado)
@@ -17,7 +26,9 @@ namespace State
 
         public void Alimentar()
         {
-            this.Estado = this.Estado.Alimentar();
+            //this.Estado = this.Estado.Alimentar();
+            var siguienteEstado = this.Estado.Alimentar();
+            this.Estado = siguienteEstado;
         }
         public void DarDeTomar()
         {

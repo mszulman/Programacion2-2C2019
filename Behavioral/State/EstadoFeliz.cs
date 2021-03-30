@@ -34,7 +34,7 @@ namespace State
         public override Estado Pegar()
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("PORQUE!!!!!!");
+            Console.WriteLine("PORQUE??????");
             return new EstadoTriste();
         }
     }

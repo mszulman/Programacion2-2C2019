@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Factory_Method.Autito">
-    <Position X="6.5" Y="6.75" Width="1.5" />
+    <Position X="2.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Autito.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory_Method.Avioncito">
-    <Position X="8.75" Y="6.75" Width="1.5" />
+    <Position X="4.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Avioncito.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Factory_Method.Juguete">
-    <Position X="7.75" Y="4.75" Width="1.5" />
+    <Position X="3.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Juguete.cs</FileName>
@@ -31,13 +31,6 @@
       <Property Name="MoldeSeleccionado" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Factory_Method.Molde">
-    <Position X="7.75" Y="1.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Molde.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Factory_Method.MoldeAutito">
     <Position X="6.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
@@ -50,6 +43,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MoldeAvioncito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory_Method.Molde">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Molde.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -33,15 +33,13 @@ namespace Composite
             foreach (Producto producto in _productos)
                 precioTotal += producto.GetPrecio();
 
+            //_productos.ForEach(producto => precioTotal += producto.GetPrecio());
 
+            //precioTotal = _productos.Sum(producto => producto.GetPrecio());
 
-            //_productos.ForEach(x => precioTotal += x.GetPrecio());
-
-            //var precioTotal = _productos.Sum(x => x.GetPrecio());
-
-            //var precioTotal =
+            //precioTotal =
             //    (from producto in _productos
-            //    select producto.GetPrecio())
+            //     select producto.GetPrecio())
             //    .Sum();
 
             return _estrategiaDeCalculo.CalcularPrecio(precioTotal);

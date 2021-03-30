@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Singleton
@@ -13,10 +14,13 @@ namespace Singleton
         private static Singleton _instance;
         public static Singleton GetInstance()
         {
-            if (_instance is null)
-                _instance = new Singleton();
+            lock (_instance)
+            {
+                if (_instance is null)
+                    _instance = new Singleton();
 
-            return _instance;
+                return _instance;
+            }
         }
         private Singleton()
         {

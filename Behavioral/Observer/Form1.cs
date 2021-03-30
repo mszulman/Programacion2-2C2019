@@ -56,7 +56,10 @@ namespace Observer
         {
             _tomadorDePulso.Cambiar();
         }
-
+        private void PruebaDeMetodo(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Manola");
+        }
         private void BtTemperatura_Click(object sender, EventArgs e)
         {
             _termometro.Cambiar();
