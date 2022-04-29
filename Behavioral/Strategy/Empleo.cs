@@ -15,6 +15,10 @@
         {
             return _bruto;
         }
+        public void setCategoria(Categoria c)
+        {
+            this._categoria = c;
+        }
 
         public Empleo(Persona persona, int antiguedad, Categoria categoria, decimal bruto)
         {

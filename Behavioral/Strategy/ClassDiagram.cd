@@ -13,20 +13,12 @@
   <Class Name="ConsoleApp1.Empleo">
     <Position X="9" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAYAAAABAAAAAAAABAEAAAAAAAAAAAAAAAgAA=</HashCode>
+      <HashCode>IAAAAAAAYAAAABAAAAAAAABAEAAAAAgAAAAAAAAAgAA=</HashCode>
       <FileName>Empleo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="_categoria" />
       <Field Name="_persona" />
     </ShowAsAssociation>
-  </Class>
-  <Class Name="ConsoleApp1.Categoria">
-    <Position X="5.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Categoria.cs</FileName>
-    </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApp1.CategoriaA">
     <Position X="4.25" Y="4.25" Width="1.5" />
@@ -34,6 +26,7 @@
       <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CategoriaA.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ConsoleApp1.CategoriaB">
     <Position X="6.75" Y="4.25" Width="1.5" />
@@ -41,6 +34,14 @@
       <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CategoriaB.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
+  <Interface Name="ConsoleApp1.Categoria">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

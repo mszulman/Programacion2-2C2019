@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp1
 {
-    public abstract class Categoria
+    public interface Categoria
     {
-        public abstract decimal CalcularNeto(Empleo e);
+        decimal CalcularNeto(Empleo e);
     }
 }

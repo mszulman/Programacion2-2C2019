@@ -12,13 +12,17 @@ namespace ConsoleApp1
             var persona = new Persona();
             var categoriaA = new CategoriaA();
             var categoriaB = new CategoriaB();
-            var empleo = new Empleo(persona, 10, categoriaB, 10000);
-            var empleo2 = new Empleo(persona, 23, categoriaA, 70000);
+            var empleo = new Empleo(persona, 10, categoriaA, 10000);
+            //var empleo2 = new Empleo(persona, 23, categoriaA, 70000);
 
-            persona.AddEmpleo(empleo);
-            //persona.AddEmpleo(empleo2);
+            //persona.AddEmpleo(empleo);
 
-            Console.WriteLine(persona.GetNetoTotal());
+            Console.WriteLine(empleo.CalcularNeto());
+
+            empleo.setCategoria(categoriaB);
+
+            Console.WriteLine(empleo.CalcularNeto());
+
 
             Console.ReadLine();
         }

@@ -17,21 +17,21 @@
   <Class Name="State.EstadoHambriento">
     <Position X="12.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
       <FileName>EstadoHambriento.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="State.EstadoSediento">
     <Position X="5.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
       <FileName>EstadoSediento.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="State.EstadoTriste">
     <Position X="10" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAEAQAAAAAAAAAQAAA=</HashCode>
       <FileName>EstadoTriste.cs</FileName>
     </TypeIdentifier>
   </Class>
