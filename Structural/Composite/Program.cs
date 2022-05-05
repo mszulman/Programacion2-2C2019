@@ -16,8 +16,6 @@ namespace Composite
 
             // Configuración de Mc Chombo
             var estrategia = new EstrategiaTeLoRegalo();
-
-
             var mcChombo1 = new ProductoCompuesto("Chombo 1", estrategia);
             mcChombo1.AddProducto(hamburguesa);
             mcChombo1.AddProducto(papas);
@@ -25,8 +23,6 @@ namespace Composite
 
             // Configuración de Mc Chombo
             var estrategia2 = new Estrategia10Porciento();
-
-
             var mcChombo2 = new ProductoCompuesto("Chombo 2", estrategia2);
             mcChombo2.AddProducto(hamburguesa);
             mcChombo2.AddProducto(papas);
@@ -36,8 +32,8 @@ namespace Composite
             var factura = new Factura();
             factura.AddItem(mcChombo1, 2);
             factura.AddItem(mcChombo2, 1);
-            //factura.AddItem(hamburguesa, 1);
-            //factura.AddItem(papas, 2);
+            factura.AddItem(hamburguesa, 1);
+            factura.AddItem(papas, 2);
 
             factura.ImprimirFactura();
         }

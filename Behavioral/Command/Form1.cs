@@ -30,6 +30,7 @@ namespace Command
             _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
             _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
             _comandosTitulo.Add(new AumentarTamanio(this.richTextBox1));
+            _comandosTitulo.Add(new Italica(this.richTextBox1));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,6 +40,7 @@ namespace Command
             this.btSubrayado.SetCommand(new Subrayado(this.richTextBox1));
             this.btAumentarTamanio.SetCommand(new AumentarTamanio(this.richTextBox1));
             this.btReducirTamanio.SetCommand(new ReducirTamanio(this.richTextBox1));
+            this.editorButton1.SetCommand(new SacarSubrayado(this.richTextBox1));
         }
 
         private void btNegrita_Click(object sender, EventArgs e)
@@ -93,6 +95,14 @@ namespace Command
         private void Button1_Click(object sender, EventArgs e)
         {
             _comandosTitulo.ForEach(x => x.Do());
+        }
+
+        private void editorButton1_Click(object sender, EventArgs e)
+        {
+            var boton = ((EditorButton)sender);
+            boton.Ejecutar();
+
+            _historial.Push(boton.Command);
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Command
 {
     public abstract class AbstractCommand
     {
-        public EditorRichTextBox Texto { get; private set; }
+        protected EditorRichTextBox Texto { get; private set; }
 
         public AbstractCommand(EditorRichTextBox texto)
         {

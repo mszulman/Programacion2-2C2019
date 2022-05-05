@@ -8,7 +8,9 @@ namespace Composite
 {
     public class ProductoSimple : Producto
     {
-        public ProductoSimple(string nombre, decimal precio) : base (nombre)
+        protected decimal _precio;
+        public ProductoSimple(string nombre, decimal precio)
+            : base (nombre)
         {
             _precio = precio;
         }

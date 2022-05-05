@@ -8,8 +8,7 @@ namespace Composite
 {
     public abstract class Producto
     {
-        protected decimal _precio;
-        
+       
         public string Nombre { get; private set; }
 
         public Producto(string nombre)

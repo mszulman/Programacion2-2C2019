@@ -11,7 +11,8 @@ namespace Composite
         private List<Producto> _productos;
         private AbstractEstrategiaDeCalculo _estrategiaDeCalculo;
 
-        public ProductoCompuesto(string nombre, AbstractEstrategiaDeCalculo estrategiaDeCalculo) : base (nombre)
+        public ProductoCompuesto(string nombre, AbstractEstrategiaDeCalculo estrategiaDeCalculo)
+            : base (nombre)
         {
             _productos = new List<Producto>();
             _estrategiaDeCalculo = estrategiaDeCalculo;

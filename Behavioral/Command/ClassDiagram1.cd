@@ -55,11 +55,12 @@
       <FileName>ReducirTamanio.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Command.Subrayado">
+  <Class Name="Command.SacarSubrayado">
     <Position X="11.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Subrayado.cs</FileName>
+      <FileName>SacarSubrayado.cs</FileName>
+      <NewMemberFileName>Subrayado.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
