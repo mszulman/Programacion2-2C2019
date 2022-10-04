@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Adapter
 {
@@ -12,6 +8,7 @@ namespace Adapter
         {
             var client = new Client();
             client.SetMapper(new BingMaps());
+            //client.SetMapper(factory.getMapper());
 
             Console.WriteLine("Mapeando ...");
             Console.WriteLine(client.HaceAlgo());

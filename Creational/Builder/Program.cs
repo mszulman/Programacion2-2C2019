@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Builder
 {
@@ -16,10 +12,10 @@ namespace Builder
             //var directorDeObra = new Director(constructoraEnSeco);
             var directorDeObra = new Director(constructoraEnHumedo);
 
-            directorDeObra.Construir();
+            var casa = directorDeObra.Construir();
 
             //var casa = constructoraEnSeco.GetResult();
-            var casa = constructoraEnHumedo.GetResult();
+            //var casa = constructoraEnHumedo.GetResult();
 
             Console.WriteLine(casa.Pozo);
             Console.WriteLine(casa.Cimientos);

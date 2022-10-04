@@ -67,6 +67,7 @@
     <Compile Include="EditorRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Titulo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

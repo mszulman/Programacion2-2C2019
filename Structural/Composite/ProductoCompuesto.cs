@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Composite
 {
@@ -12,13 +9,13 @@ namespace Composite
         private AbstractEstrategiaDeCalculo _estrategiaDeCalculo;
 
         public ProductoCompuesto(string nombre, AbstractEstrategiaDeCalculo estrategiaDeCalculo)
-            : base (nombre)
+            : base(nombre)
         {
             _productos = new List<Producto>();
             _estrategiaDeCalculo = estrategiaDeCalculo;
         }
 
-        public void AddProducto (Producto producto)
+        public void AddProducto(Producto producto)
         {
             _productos.Add(producto);
         }
@@ -44,6 +41,12 @@ namespace Composite
             //    .Sum();
 
             return _estrategiaDeCalculo.CalcularPrecio(precioTotal);
+        }
+        public override string ImprimirContenido()
+        {
+            string retorno = Environment.NewLine;
+            _productos.ForEach(producto => retorno += "  - " + producto.Nombre + Environment.NewLine);
+            return retorno;
         }
     }
 }

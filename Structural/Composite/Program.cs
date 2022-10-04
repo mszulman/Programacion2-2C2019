@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Composite
+﻿namespace Composite
 {
     class Program
     {
@@ -25,12 +19,17 @@ namespace Composite
             var estrategia2 = new Estrategia10Porciento();
             var mcChombo2 = new ProductoCompuesto("Chombo 2", estrategia2);
             mcChombo2.AddProducto(hamburguesa);
+            mcChombo2.AddProducto(hamburguesa);
+            mcChombo2.AddProducto(hamburguesa);
+            mcChombo2.AddProducto(papas);
             mcChombo2.AddProducto(papas);
             mcChombo2.AddProducto(gaseosa);
+            mcChombo2.AddProducto(mcChombo1);
+
 
             // Configuración de Factura (Pedido)
             var factura = new Factura();
-            factura.AddItem(mcChombo1, 2);
+            factura.AddItem(mcChombo1, 20);
             factura.AddItem(mcChombo2, 1);
             factura.AddItem(hamburguesa, 1);
             factura.AddItem(papas, 2);

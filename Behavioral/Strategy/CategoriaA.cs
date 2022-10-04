@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1
 {
-    public class CategoriaA:Categoria
+    public class CategoriaA : Categoria
     {
         public decimal CalcularNeto(Empleo e)
         {

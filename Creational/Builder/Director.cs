@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Builder
+﻿namespace Builder
 {
     public class Director
     {
@@ -15,13 +9,15 @@ namespace Builder
             this.Builder = builder;
         }
 
-        public void Construir()
+        public Casa Construir()
         {
             this.Builder.HacerPozo();
             this.Builder.PonerCimientos();
             this.Builder.LevantarColumnas();
             this.Builder.HacerParedes();
             this.Builder.PonerTecho();
+
+            return this.Builder.GetResult();
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Composite
 {
@@ -58,7 +55,10 @@ namespace Composite
         }
         public string GetLineaFactura()
         {
-            return Cantidad + " x " + Producto.Nombre + " ($ " + Producto.GetPrecio() + ") = $" + GetPrecioItem();
+            string retorno = Cantidad + " x " + Producto.Nombre + " ($ " + Producto.GetPrecio() + ") = $" + GetPrecioItem();
+            retorno += Producto.ImprimirContenido();
+            return retorno;
+
         }
     }
 }

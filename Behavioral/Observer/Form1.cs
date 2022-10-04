@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Observer
@@ -55,10 +48,6 @@ namespace Observer
         private void BtTomadorDePulso_Click(object sender, EventArgs e)
         {
             _tomadorDePulso.Cambiar();
-        }
-        private void PruebaDeMetodo(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hola Manola");
         }
         private void BtTemperatura_Click(object sender, EventArgs e)
         {

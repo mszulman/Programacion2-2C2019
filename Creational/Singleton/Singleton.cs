@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace Singleton
+﻿namespace Singleton
 {
     public class Singleton
     {
@@ -14,13 +7,10 @@ namespace Singleton
         private static Singleton _instance;
         public static Singleton GetInstance()
         {
-            lock (_instance)
-            {
-                if (_instance is null)
-                    _instance = new Singleton();
+            if (_instance is null)
+                _instance = new Singleton();
 
-                return _instance;
-            }
+            return _instance;
         }
         private Singleton()
         {

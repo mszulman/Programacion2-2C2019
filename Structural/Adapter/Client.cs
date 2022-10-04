@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Adapter
+﻿namespace Adapter
 {
     public class Client
     {
@@ -14,6 +8,11 @@ namespace Adapter
         {
             this.Mapper = bingMaps;
         }
+        //public void SetMapper()
+        //{
+        //    Factory f = new Factory();
+        //    this.Mapper = f.getMapper();
+        //}
 
         public string HaceAlgo()
         {

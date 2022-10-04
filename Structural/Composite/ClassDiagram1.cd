@@ -23,7 +23,7 @@
   <Class Name="Composite.Producto">
     <Position X="7.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Producto.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -32,12 +32,12 @@
     <AssociationLine Name="_productos" Type="Composite.Producto" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="7.062" Y="4.25" />
-        <Point X="7.062" Y="2.062" />
-        <Point X="7.75" Y="2.062" />
+        <Point X="7.062" Y="2.206" />
+        <Point X="7.75" Y="2.206" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAGAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAACAACAAEAAAAAAAGAAAAAAA=</HashCode>
       <FileName>ProductoCompuesto.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -50,7 +50,7 @@
   <Class Name="Composite.ProductoSimple">
     <Position X="9" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>ProductoSimple.cs</FileName>
     </TypeIdentifier>
   </Class>

@@ -37,6 +37,11 @@
             this.btNegrita = new Command.EditorButton();
             this.richTextBox1 = new Command.EditorRichTextBox();
             this.editorButton1 = new Command.EditorButton();
+            this.btTitulo = new Command.EditorButton();
+            this.editorButton2 = new Command.EditorButton();
+            this.editorButton3 = new Command.EditorButton();
+            this.editorButton4 = new Command.EditorButton();
+            this.editorButton5 = new Command.EditorButton();
             this.SuspendLayout();
             // 
             // btDeshacer
@@ -127,11 +132,66 @@
             this.editorButton1.UseVisualStyleBackColor = true;
             this.editorButton1.Click += new System.EventHandler(this.editorButton1_Click);
             // 
+            // btTitulo
+            // 
+            this.btTitulo.Location = new System.Drawing.Point(418, 41);
+            this.btTitulo.Name = "btTitulo";
+            this.btTitulo.Size = new System.Drawing.Size(75, 23);
+            this.btTitulo.TabIndex = 5;
+            this.btTitulo.Text = "Titulo C";
+            this.btTitulo.UseVisualStyleBackColor = true;
+            this.btTitulo.Click += new System.EventHandler(this.btTitulo_Click);
+            // 
+            // editorButton2
+            // 
+            this.editorButton2.Location = new System.Drawing.Point(713, 120);
+            this.editorButton2.Name = "editorButton2";
+            this.editorButton2.Size = new System.Drawing.Size(75, 23);
+            this.editorButton2.TabIndex = 6;
+            this.editorButton2.Text = "editorButton2";
+            this.editorButton2.UseVisualStyleBackColor = true;
+            this.editorButton2.Click += new System.EventHandler(this.editorButton2_Click);
+            // 
+            // editorButton3
+            // 
+            this.editorButton3.Location = new System.Drawing.Point(713, 149);
+            this.editorButton3.Name = "editorButton3";
+            this.editorButton3.Size = new System.Drawing.Size(75, 23);
+            this.editorButton3.TabIndex = 7;
+            this.editorButton3.Text = "editorButton3";
+            this.editorButton3.UseVisualStyleBackColor = true;
+            this.editorButton3.Click += new System.EventHandler(this.editorButton3_Click);
+            // 
+            // editorButton4
+            // 
+            this.editorButton4.Location = new System.Drawing.Point(713, 178);
+            this.editorButton4.Name = "editorButton4";
+            this.editorButton4.Size = new System.Drawing.Size(75, 23);
+            this.editorButton4.TabIndex = 8;
+            this.editorButton4.Text = "editorButton4";
+            this.editorButton4.UseVisualStyleBackColor = true;
+            this.editorButton4.Click += new System.EventHandler(this.editorButton4_Click);
+            // 
+            // editorButton5
+            // 
+            this.editorButton5.Location = new System.Drawing.Point(12, 178);
+            this.editorButton5.Name = "editorButton5";
+            this.editorButton5.Size = new System.Drawing.Size(75, 23);
+            this.editorButton5.TabIndex = 9;
+            this.editorButton5.Text = "editorButton5";
+            this.editorButton5.UseVisualStyleBackColor = true;
+            this.editorButton5.Click += new System.EventHandler(this.editorButton5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.editorButton5);
+            this.Controls.Add(this.editorButton4);
+            this.Controls.Add(this.editorButton3);
+            this.Controls.Add(this.editorButton2);
+            this.Controls.Add(this.btTitulo);
             this.Controls.Add(this.editorButton1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btDeshacer);
@@ -159,6 +219,11 @@
         private System.Windows.Forms.Button btDeshacer;
         private System.Windows.Forms.Button button1;
         private EditorButton editorButton1;
+        private EditorButton btTitulo;
+        private EditorButton editorButton2;
+        private EditorButton editorButton3;
+        private EditorButton editorButton4;
+        private EditorButton editorButton5;
     }
 }
 

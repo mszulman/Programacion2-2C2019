@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Composite
+﻿namespace Composite
 {
     public class ProductoSimple : Producto
     {
         protected decimal _precio;
         public ProductoSimple(string nombre, decimal precio)
-            : base (nombre)
+            : base(nombre)
         {
             _precio = precio;
         }

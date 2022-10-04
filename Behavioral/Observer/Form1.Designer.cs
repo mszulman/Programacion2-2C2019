@@ -32,14 +32,14 @@
             this.btTemperatura = new System.Windows.Forms.Button();
             this.btPeso = new System.Windows.Forms.Button();
             this.lvCardiologo = new System.Windows.Forms.ListView();
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvNutricionista = new System.Windows.Forms.ListView();
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvTraumatologo = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btTomadorDePulso
@@ -51,7 +51,6 @@
             this.btTomadorDePulso.Text = "Pulso";
             this.btTomadorDePulso.UseVisualStyleBackColor = true;
             this.btTomadorDePulso.Click += new System.EventHandler(this.BtTomadorDePulso_Click);
-            this.btTomadorDePulso.Click += new System.EventHandler(this.PruebaDeMetodo);
             // 
             // btTemperatura
             // 
@@ -77,6 +76,7 @@
             // 
             this.lvCardiologo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader3});
+            this.lvCardiologo.HideSelection = false;
             this.lvCardiologo.Location = new System.Drawing.Point(490, 12);
             this.lvCardiologo.Name = "lvCardiologo";
             this.lvCardiologo.Size = new System.Drawing.Size(641, 97);
@@ -84,10 +84,15 @@
             this.lvCardiologo.UseCompatibleStateImageBehavior = false;
             this.lvCardiologo.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Width = 617;
+            // 
             // lvNutricionista
             // 
             this.lvNutricionista.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader2});
+            this.lvNutricionista.HideSelection = false;
             this.lvNutricionista.Location = new System.Drawing.Point(490, 174);
             this.lvNutricionista.Name = "lvNutricionista";
             this.lvNutricionista.Size = new System.Drawing.Size(641, 97);
@@ -95,10 +100,15 @@
             this.lvNutricionista.UseCompatibleStateImageBehavior = false;
             this.lvNutricionista.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Width = 618;
+            // 
             // lvTraumatologo
             // 
             this.lvTraumatologo.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1});
+            this.lvTraumatologo.HideSelection = false;
             this.lvTraumatologo.Location = new System.Drawing.Point(490, 341);
             this.lvTraumatologo.Name = "lvTraumatologo";
             this.lvTraumatologo.Size = new System.Drawing.Size(641, 97);
@@ -106,12 +116,16 @@
             this.lvTraumatologo.UseCompatibleStateImageBehavior = false;
             this.lvTraumatologo.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Width = 626;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(408, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 17);
+            this.label1.Size = new System.Drawing.Size(74, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Cardiologo";
             // 
@@ -120,7 +134,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(398, 174);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 17);
+            this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nutricionista";
             // 
@@ -129,21 +143,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(388, 341);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 17);
+            this.label3.Size = new System.Drawing.Size(92, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Traumatologo";
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Width = 626;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Width = 618;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Width = 617;
             // 
             // Form1
             // 

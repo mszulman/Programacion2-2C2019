@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace State
 {
@@ -30,11 +26,5 @@ namespace State
             Console.WriteLine(":) (pero sigo teniendo hambre)");
             return this;
         }
-        //public override Estado Pegar()
-        //{
-        //    Console.ForegroundColor = ConsoleColor.White;
-        //    Console.WriteLine("ME DUELE!!!");
-        //    return new EstadoTriste();
-        //}
     }
 }

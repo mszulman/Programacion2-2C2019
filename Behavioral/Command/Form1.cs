@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Command
@@ -41,6 +36,7 @@ namespace Command
             this.btAumentarTamanio.SetCommand(new AumentarTamanio(this.richTextBox1));
             this.btReducirTamanio.SetCommand(new ReducirTamanio(this.richTextBox1));
             this.editorButton1.SetCommand(new SacarSubrayado(this.richTextBox1));
+            this.btTitulo.SetCommand(new Titulo(this.richTextBox1));
         }
 
         private void btNegrita_Click(object sender, EventArgs e)
@@ -103,6 +99,39 @@ namespace Command
             boton.Ejecutar();
 
             _historial.Push(boton.Command);
+        }
+
+        private void btTitulo_Click(object sender, EventArgs e)
+        {
+            var boton = ((EditorButton)sender);
+            boton.Ejecutar();
+
+            _historial.Push(boton.Command);
+        }
+
+        private void editorButton5_Click(object sender, EventArgs e)
+        {
+            var boton = ((EditorButton)sender);
+            boton.Ejecutar();
+
+            _historial.Push(boton.Command);
+        }
+
+        private void editorButton2_Click(object sender, EventArgs e)
+        {
+            this.editorButton5.SetCommand(new Subrayado(this.richTextBox1));
+        }
+
+        private void editorButton3_Click(object sender, EventArgs e)
+        {
+            this.editorButton5.SetCommand(new Negrita(this.richTextBox1));
+
+        }
+
+        private void editorButton4_Click(object sender, EventArgs e)
+        {
+            this.editorButton5.SetCommand(new Titulo(this.richTextBox1));
+
         }
     }
 }
